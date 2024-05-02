@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aplicación ToDoList con ReactJS",
+    "descripcion": "Aplicación ToDo realizado con ReactJS, para aprender sobre los React Hooks y el manejo de estado. Se desarrolló un CRUD de tareas, con la posibilidad de agregar, eliminar, editar y marcar como completada una tarea. Además de la implementación de estilos con Css.",
+    "tecnologias": ["ReactJS", "Css", "Javascript"],
+    "comentario": "Proyecto Personal, para aprender acerca de ReactJS y su estructura basado en componentes. Después de aprender html, css y javascript, decidí aprender ReactJS para poder crear aplicaciones web más complejas y dinámicas. Entre las hooks aprendidos fueron: useState, useEffect, useRef, useReducer y entre otros"
+  },
+  {
+    "id": 2,
+    "nombre": "Aplicación de Clima - AppClima",
+    "descripcion": "Aplicación del clima realizada con ReactJS, para aprender sobre el consumo de una API. Se utilizó la API de OpenWeatherMap para obtener los datos del clima de una ciudad en específico. Se implementó un buscador de ciudades, para obtener el clima de la ciudad deseada. Se aprendió a utilizar las herramientas para consumir una API, por ejemplo fetch o axios.",
+    "tecnologias": ["ReactJS", "css", "Javascript"],
+    "comentario": "Primer proyecto en la que se usa un api, se aprendió a consumir una api y a mostrar los datos en la pantalla, en este caso obtener el clima de una ciudad en específico."
+  },
+  {
+    "id": 3,
+    "nombre": "FrontEnd Tienda Virtual - app-store",
+    "descripcion": "FrontEnd de una tienda virtual, realizado con ReactJS, para aprender sobre el manejo de filtros (filtro por nombre, precio y categoría), además de agregar un carrito de compras el cual se puede agregar y eliminar productos, y calcular el total de la compra.",
+    "tecnologias": ["React", "javascript", "css"],
+    "comentario": "Proyecto para simular una tienda virtual y agregar los productos al carrito de compras, se aprendió el uso de Context para el manejo de estados globales. Más adelante se implementará el backend para poder realizar la compra de los productos usando las herramientas necesarias."
+  },
+  {
+    "id": 4,
+    "nombre": "Aplicación TMDB - app-peliculas-tmdb",
+    "descripcion": "Aplicación de películas realizada con ReactJS, utilizando la API de The Movie Database (TMDB). Con buscador de películas, se puede seleccionar si se quiere buscar series o películas, se puede ver el detalle de pelicula y agregar una calificacion, luego en otra seccion se puede ver el ranking de las peliculas dado por el usuario,",
+    "tecnologias": ["Html", "Css", "Javascript"],
+    "comentario": "Se aprendió a consumir una API y a mostrar los datos en la pantalla. Además de aprender a utilizar React Router DOM para la navegación entre páginas. Se podría mejorar el proyecto añadiendo un login de usuario para que cada usuario pueda tener su lista de películas calificadas."
+  },
+  {
+    "id": 5,
+    "nombre": "Sistema de gestión de una Lavanderia",
+    "descripcion": "Sistema de gestión de una lavandería, realizado con .Net Core. Se desarrolló un CRUD de clientes y empleados, un login de usuario quien será un empleado para acceder al sistema. Se puede crear servicios, listarlos, filtrarlo, generar boletas de pago, ver el estado del servicio y el estado de almacen de la lavandería",
+    "tecnologias": [".NetCore", "c#", "Entity Framework", "Sql Server", "MVC"],
+    "comentario": "Proyecto de universidad para el curso de ingeniería de software 1 y 2, se puede mejorar primero haciendo una actualización del código usando una versión actual de .net que es la 8, la versión 3.1 ya es obsoleta por lo que hay problemas de compatibilidad con las nuevas versiones de visual studio."
+  },
+  {
+    "id": 6,
+    "nombre": "AppMovie con NetCore",
+    "descripcion": "Aplicación de películas realizada con .Net Core 3.1, crud de peliculas y usuarios, login de usuario, los usuarios pueden agregar sus propias películas y ver las películas agregadas por otros usuarios, además de comentarios, calificación, noticias de películas, entre otros.",
+    "tecnologias": [".NetCore", "Javascript", "c#", "Entity Framework", "postgresql", "Heroku", "MVC"],
+    "comentario": "Fue un proyecto de universidad para el curso de programación 1 (6to ciclo), se aprendió a utilizar .net Core, la versión 3.1, se usó el ORM de Entity Framework para la conexión a la base de datos, y heroku para el despliegue de la aplicación y uso de la base de datos. Se podría mejorar actualizando el código a una versión más actual de .net, la versión 3.1 ya es obsoleta."
+  },
+  {
+    "id": 7,
+    "nombre": "app-react-gastos-ingresos",
+    "descripcion": "Aplicación en ReactJS para el control de ingresos y gastos, usando paquete victory para la visualización de datos en gráficos, se puede agregar ingresos o gastos y se irá actualizando el monto total, además de mostrar los datos en un gráfico circular.",
+    "tecnologias": ["ReactJS", "Javascript", "Css"],
+    "comentario": "Proyecto personal hecho en react para aprender a usar nuevos pquetes de react, en este caso se usó victory para la visualización de datos en gráficos."
+  },
+  {
+    "id": 8,
+    "nombre": "Advice-generator-app",
+    "descripcion": "Generar consejor aleatorios con la api de Advice Slip y se muestra en pantalla. Se utilizó tailwind para los estilos de la aplicación.",
+    "tecnologias": ["ReactJS", "tailwind", "javascript"],
+    "comentario": "Challenge de Frontend Mentor, para practicar el uso de tailwind y la implementación de una api en react. Se podría mejorar añadiendo un botón para compartir el consejo en las redes sociales."
+  },
+  {
+    "id": 9,
+    "nombre": "Diseños de paginas web con Tailwind",
+    "descripcion": "Implementación de un diseño de una página web usando tailwind para los estilos",
+    "tecnologias": ["html", "css", "tailwind"],
+    "comentario": "Challenge de Frontend Mentor, para practicar el uso de tailwind y la implementación de un diseño de una página web. Se podría mejorar añadiendo funcionalidades a la página web, como un formulario de contacto, un login de usuario, entre otros. Cuenta con un diseño responsive."
+  },
+  {
+    "id": 10,
+    "nombre": "ApiRest-movies",
+    "descripcion": "Se desarrolló una API REST de películas, con las operaciones CRUD, se puede agregar, eliminar, editar y listar las películas. Se utilizó Nodejs, Express, y el patrón de arquitectura MVC, middlewares, rutas. Se agregó la opción de ejecutar el proyecto de 3 formas usando diferentes bases de datos: MySQL, MongoDB y localmente con un archivo json. Se utilizó zod para la validadión de datos",
+    "tecnologias": ["Nodejs", "Javascript", "Express", "MySQL", "MongoDB", "Mongoose", "zod"],
+    "comentario": "Después de aprender sobre front-end con reactJS, decidí comenzar con backend utilizando NodeJS, por lo que decidí investigar sobre los conceptos básicos de NodeJS y Express. Así que se desarrolló una API Rest sobre películas y hacer un crud"
+  },
+  {
+    "id": 11,
+    "nombre": "ApiRest-mongoDB-libros",
+    "descripcion": "Api de libros con operaciones CRUD, con mongodb con moongose, uso de docker para la bd, definición de rutas y modelo para los libros.",
+    "tecnologias": ["Nodejs", "Javascript", "Express", "MongoDB", "Mongoose", "Docker"],
+    "comentario": "En esta ocasión se utilizó docker para levantar la base de datos de mongodb y se aprendió a usar mongoose para la conexión a la base de datos y definir el modelo de libro para validaciones, restricciones y realizar las operaciones correspondientes. Se podría mejorar añadiendo más rutas y modelos para la api como usuarios, categorías, entre otros."
+  },
+  {
+    "id": 12,
+    "nombre": "crud-react-node-sequelize",
+    "descripcion": "Desarrollo de frontend y backend sobre una aplicación de blogs. Operaciones CRUD usando NodeJS, consumo de api usando ReactJS. Se utilizó además Sequelize para el manejo de la base de datos MySQL.",
+    "tecnologias": ["ReactJS", "Nodejs", "Express", "MySQL", "Sequelize"],
+    "comentario": "Para seguir aprendiendo sobre NodeJS, en este proyecto además de practicar nodeJS haciendo el crud, se desarrolló un frontend en Reactjs para consumir la api. También se aprendió a usar la ORM sequelize para la conexión a la base de datos y definir los modelos de la base de datos."
+  },
+  {
+    "id": 13,
+    "nombre": "node-chat-websocket",
+    "descripcion": "Aplicación de chat en tiempo real, usando NodeJS, Express y Socket.io. Se puede enviar mensajes en tiempo real. Se puede enviar mensajes a todos los usuarios o enviar mensajes privados a un usuario en específico.",
+    "tecnologias": ["Nodejs", "Express", "Socket.io", "Javascript"],
+    "comentario": "Este proyecto está siendo desarrollado actualmente, se está aprendiendo a usar socket.io para la comunicación en tiempo real entre el servidor y el cliente."
+  },
+  {
+    "id": 14,
+    "nombre": "node-jsonwebtoken-mysql",
+    "descripcion": "Desarrollo de una api con NodeJS, Express y autenticación con JsonWebToken. Se desarrolló un CRUD de usuarios, con la posibilidad de registrar, loguear y obtener los datos del usuario. Se utilizó MySQL para la base de datos y para las vistas se utilizó EJS.",
+    "tecnologias": ["express", "nodejs", "mysql", "jsonwebtoken", "bcryptjs", "EJS"],
+    "comentario": "Para este proyecto se aprendió a usar jsonwebtoken para la autenticación de usuarios, bcryptjs para el cifrado de la contraseña y EJS para las vistas de la aplicación."
+  }
+]

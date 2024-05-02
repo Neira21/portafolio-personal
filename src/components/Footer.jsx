@@ -1,6 +1,10 @@
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <footer className="bg-gray-800 text-white text-center py-3">
+        <p>© 2024 - Alvaro Neira Riveros</p>
+      </footer>
+    </div>
   )
 }
 
