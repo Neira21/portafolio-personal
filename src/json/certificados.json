@@ -1,0 +1,124 @@
+{
+  "certificadosPlatzi": [
+    {
+      "id": 1,
+      "nombre": "Curso Profesional de GIT Y GITHUB - 28 de Marzo 2024",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/1557-git-github/diploma/detalle/"
+    },
+    {
+      "id": 2,
+      "nombre": "Curso Práctico de JavaScript - 19 de Julio 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2327-javascript-practico-2021/diploma/detalle/"
+    },
+    {
+      "id": 3,
+      "nombre": "Curso de React.js: Manejo Profesional del Estado - 28 de Marzo 2024",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2597-react-estado/diploma/detalle/"
+    },
+    {
+      "id": 4,
+      "nombre": "Curso de Programación Básica - 18 de Marzo 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/1050-basico-programacion/diploma/detalle/"
+    },
+    {
+      "id": 5,
+      "nombre": "Curso Básico de Python - 31 de Marzo 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/1937-python-basico/diploma/detalle/"
+    },
+    {
+      "id": 6,
+      "nombre": "Curso práctico de Consumo de API REST con Javascript - 11 de Agosto 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2986-api-practico/diploma/detalle/"
+    },
+    {
+      "id": 7,
+      "nombre": "Curso de Backend con Node.js: API REST con Express.js - 29 de Marzo 2024",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2485-backend-nodejs/diploma/detalle/"
+    },
+    {
+      "id": 8,
+      "nombre": "Curso de Backend con Node.js: Base de Datos con PostgreSQL - 29 de Marzo 2024",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2507-backend-nodejs-postgres/diploma/detalle/"
+    },
+    {
+      "id": 9,
+      "nombre": "Curso de Fundamentos de JAVA Spring Boot - 28 de Agosto 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2317-spring-boot/diploma/detalle/"
+    },
+    {
+      "id": 10,
+      "nombre": "Curso de C# para Videojuegos - 18 de Marzo 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/1413-desarrollo-unity/diploma/detalle/"
+    },
+    {
+      "id": 11,
+      "nombre": "Curso de Diseño Web con CSS Grid y Flexbox - 18 de Agosto 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2229-flexbox-css-grid/diploma/detalle/"
+    },
+    {
+      "id": 12,
+      "nombre": "Curso Definitivo de HTML y CSS - 12 de Agosto 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2008-html-css/diploma/detalle/"
+    },
+    {
+      "id": 13,
+      "nombre": "Curso de Frontend Developer - 7 de Abril 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2467-frontend-developer/diploma/detalle/"
+    },
+    {
+      "id": 14,
+      "nombre": "Curso de Fundamentos de Bases de Datos - 18 de Marzo 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/1566-bd/diploma/detalle/"
+    },
+    {
+      "id": 15,
+      "nombre": "Curso de Fundamentos de .NET - 7 de Abril 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2883-fundamentos-net/diploma/detalle/"
+    },
+    {
+      "id": 16,
+      "nombre": "Curso de Fundamentos de TypeScript - 1 de Noviembre 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2878-typescript/diploma/detalle/"
+    },
+    {
+      "id": 17,
+      "nombre": "Curso de Introducción al Desarrollo Backend - 7 de Abril 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2508-backend-introduccion/diploma/detalle/"
+    },
+    {
+      "id": 18,
+      "nombre": "Curso de PostgreSQL - 30 de Marzo 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/1480-postgresql/diploma/detalle/"
+    },
+    {
+      "id": 19,
+      "nombre": "Curso de React.js - 28 de Marzo 2024",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/7395-react/diploma/detalle/"
+    },
+    {
+      "id": 20,
+      "nombre": "Curso de React.js con Vite.js y TailwindCSS - 28 de Marzo 2024",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/7396-react-vite-tailwindcss/diploma/detalle/"
+    },
+    {
+      "id": 21,
+      "nombre": "Curso de TypeScript: Tipos Avanzados y Funciones - 13 de Noviembre 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2879-typescript-tipos-avanzados/diploma/detalle/"
+    },
+    {
+      "id": 22,
+      "nombre": "Curso Gratis de Programación Básica - 26 de Julio 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/3208-programacion-basica/diploma/detalle/"
+    },
+    {
+      "id": 23,
+      "nombre": "Curso Práctico de Frontend Developer - 27 de Junio 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/2477-frontend-developer-practico/diploma/detalle/"
+    },
+    {
+      "id": 24,
+      "nombre": "Curso Práctico de HTML y CSS - 19 de Agosto 2022",
+      "url": "https://platzi.com/p/AlvaroNeira/curso/1758-html-practico/diploma/detalle/"
+    }
+  ]
+}

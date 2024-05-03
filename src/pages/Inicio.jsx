@@ -24,9 +24,13 @@ function Inicio() {
     <div>
       <Header aboutRef={aboutRef} skillsRef={skillsRef} proyectosRef={proyectosRef} certificatesRef={certificatesRef} contactRef={contactRef} />
       <About aboutRef={aboutRef}/>
+      <hr />
       <Skills skillsRef={skillsRef} />
+      <hr />
       <Proyectos proyectosRef={proyectosRef} proyectos={proyectos} />
+      <hr />
       <Certificates certificatesRef={certificatesRef} />
+      <hr className='border-red-900' />
       <Contact contactRef={contactRef} ></Contact>
       <Footer></Footer>
     </div>

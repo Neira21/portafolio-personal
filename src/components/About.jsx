@@ -24,7 +24,7 @@ const About = ({aboutRef}) => {
           </figure>
         </div>
       </div>
-      <p>
+      <p className='mb-4'>
         Soy egresado de la Universidad de San Martín de Porres. Tengo experiencia desarrollando proyectos personales y de la universidad. Cuento con conocimientos sobre el desarrollo de software, desarrollo frontend, backend, base de datos, gestión de versiones GIT y metodologías ágiles con SCRUM. Dispuesto a seguir aprendiendo nuevas tecnologías y seguir las últimas tendencias sobre el sector con el objetivo de seguir mejorando mis habilidades como programador.
       </p>
 
