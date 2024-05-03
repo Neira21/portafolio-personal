@@ -12,11 +12,16 @@ const Proyectos = ({ proyectosRef, proyectos }) => {
   proyectos = proyectos.slice(0, 3);
 
   return (
-    <div ref={proyectosRef} className="300 py-5">
-      <h2 className="text-green-800 text-3xl text-center pt-4">
+    <div ref={proyectosRef} className="300 py-5 
+      bg-gradient-to-r from-sky-900 via-blue-900 to-indigo-900
+     text-white">
+      <h2 className="text-3xl text-center pt-4 font-bold ">
         Experiencia/proyectos
       </h2>
-      <div className="contenedor-proyectos">
+      {/* centrar */}
+      <div className="flex flex-wrap justify-center gap-4 m-[2rem]
+
+      ">
         {proyectos.map((proyecto) => (
           <Card style={{ width: "25rem" }} key={proyecto.id}>
             <Card.Img variant="top" src={proyecto.imagen} />
@@ -27,7 +32,7 @@ const Proyectos = ({ proyectosRef, proyectos }) => {
               </Card.Text>
               <ul className="flex flex-wrap gap-2 my-3 text-white ">
                 {proyecto.tecnologias.map((tecnologia, index) => (
-                  <li className="bg-red-400 px-2 h-auto " key={index}>
+                  <li className="font-bold bg-red-400 px-2 h-auto " key={index}>
                     {tecnologia}
                   </li>
                 ))}
@@ -35,7 +40,7 @@ const Proyectos = ({ proyectosRef, proyectos }) => {
               <div className="flex gap-4">
                 <a
                   target="_blank"
-                  className="btn bg-green-400 hover:bg-green-900 text-white"
+                  className="font-bold btn bg-green-400 hover:bg-green-900 text-white"
                   href={proyecto.repositorio[0]}
                 >
                   Repositorio git
@@ -56,7 +61,9 @@ const Proyectos = ({ proyectosRef, proyectos }) => {
       </div>
       <div className="flex justify-end mr-5 ">
         <button
-          className="bg-blue-400 px-4 py-2 rounded-xl"
+          className="bg-blue-400 px-4 py-2 rounded-xl font-bold
+          hover:bg-blue-600 
+          "
           onClick={goToProjects}
         >
           Ver más proyectos

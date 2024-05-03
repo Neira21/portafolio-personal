@@ -3,9 +3,9 @@ import {certificadosPlatzi} from '../json/certificados.json'
 
 const Certificates = ({certificatesRef}) => {
   return (
-    <div ref={certificatesRef} >
-      <h1 className='text-3xl text-center pt-4 mb-3'> Certificados</h1>
-        <Accordion defaultActiveKey="0" flush className='mx-14'>
+    <div ref={certificatesRef} className='pb-24 bg-gradient-to-r from-green-200 via-green-300 to-green-500' >
+      <h1 className='text-3xl text-center pt-4 mb-3 font-bold'> Certificados</h1>
+        <Accordion className='mx-8 ' >
           <Accordion.Item eventKey="0">
             <Accordion.Header >FreeCodeCamp</Accordion.Header>
             <Accordion.Body >

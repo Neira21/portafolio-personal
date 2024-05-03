@@ -58,7 +58,11 @@ const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef, contactRef}
           </button>
         </div>
         {menu && (
-          <div className="bg-slate-600 right-0 top-36 fixed w-64 transition-transform duration-300 transform">
+          // gradiente oscuro azulado
+          <div className=" 
+            bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white
+            rounded-3xl
+           right-0 top-20 fixed w-64 transition-transform duration-300 transform">
             <GrClose  className="cursor-pointer absolute right-0 m-1"  onClick={handleClick} size={35} />
             <ul className="d-flex flex-col gap-4 mt-8">
               <li className="cursor-pointer p-3">

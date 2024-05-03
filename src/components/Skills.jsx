@@ -78,14 +78,17 @@ const Skills = ({skillsRef}) => {
   ]
 
   return (
-    <div ref={skillsRef} className='mx-8 py-5 p-3'>
-      <p className="text-center text-2xl p-10 mx-6">Tengo experiencia usando estas tecnologías</p>
-      <div className="flex flex-wrap gap-10">
+    // Backgroun degradado tailwind verde
+    <div ref={skillsRef} className='
+    bg-gradient-to-r from-green-200 via-green-300 to-green-500 text-gray-900
+    px-4 py-5 '>
+      <p className="text-center text-2xl py-10 mx-2 font-bold">Tengo experiencia usando estas tecnologías</p>
+      <div className="flex flex-wrap gap-6 justify-center " >
         {SkillsArray.map((skill) => (
           <div key={skill.id} className="flex flex-col items-center">
             <img src={skill.img
             } alt={skill.nombre} className="w-24 h-20" />
-            <p className="text-center">{skill.nombre}</p>
+            <p className="text-center font-bold mt-4">{skill.nombre}</p>
           </div>
         ))}
 

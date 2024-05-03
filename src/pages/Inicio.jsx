@@ -30,8 +30,6 @@ function Inicio() {
       <Proyectos proyectosRef={proyectosRef} proyectos={proyectos} />
       <hr />
       <Certificates certificatesRef={certificatesRef} />
-      <hr className='border-red-900' />
-      <Contact contactRef={contactRef} ></Contact>
       <Footer></Footer>
     </div>
   )
