@@ -5,9 +5,8 @@ import { useRef } from 'react';
 import '../App.css'
 import Skills from '../components/Skills';
 import Certificates from '../components/Certificates';
-import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import proyectos from '../json/proyectos.json';
+
 
 
 function Inicio() {
@@ -27,7 +26,7 @@ function Inicio() {
       <hr />
       <Skills skillsRef={skillsRef} />
       <hr />
-      <Proyectos proyectosRef={proyectosRef} proyectos={proyectos} />
+      <Proyectos proyectosRef={proyectosRef} />
       <hr />
       <Certificates certificatesRef={certificatesRef} />
       <Footer></Footer>

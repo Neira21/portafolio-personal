@@ -1,15 +1,26 @@
 import { useNavigate } from "react-router-dom";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-const Proyectos = ({ proyectosRef, proyectos }) => {
+import { useEffect, useState } from "react";
+import proyectos1 from '../json/proyectos.json';
+
+const Proyectos = ({ proyectosRef }) => {
+
+  const [proyectos, setProyectos] = useState(proyectos1.slice(0, 3));
+
   const navigate = useNavigate();
   const goToProjects = () => {
     // Redirigir a la página de proyectos
-    navigate("/proyectos");
+    navigate("/portafolio-personal/proyectos");
   };
-  // Solo obtener los 3 primeros proyectos
-  proyectos = proyectos.slice(0, 3);
+  
+  const colocandoImagenes = () => {
+    console.log("asd")
+  }
+
+  useEffect(()=> {
+    colocandoImagenes()
+  },[])
 
   return (
     <div ref={proyectosRef} className="300 py-5 
@@ -19,16 +30,13 @@ const Proyectos = ({ proyectosRef, proyectos }) => {
         Experiencia/proyectos
       </h2>
       {/* centrar */}
-      <div className="flex flex-wrap justify-center gap-4 m-[2rem]
-
-      ">
+      <div className="flex flex-wrap justify-center gap-4 m-[2rem]">
         {proyectos.map((proyecto) => (
           <Card style={{ width: "25rem" }} key={proyecto.id}>
             <Card.Img variant="top" src={proyecto.imagen} />
             <Card.Body className="flex flex-col justify-between">
               <Card.Title>{proyecto.nombre}</Card.Title>
               <Card.Text>{proyecto.descripcion}
-              
               </Card.Text>
               <ul className="flex flex-wrap gap-2 my-3 text-white ">
                 {proyecto.tecnologias.map((tecnologia, index) => (

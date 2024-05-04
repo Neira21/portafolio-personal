@@ -24,7 +24,7 @@ const Projects = () => {
   const navigate = useNavigate();
   const goToHome = () => {
     // Redirigir a la página de inicio
-    navigate("/");
+    navigate("/portafolio-personal");
   };
   const [proyectos, setProyectos] = useState(_proyectos)
 
