@@ -1,18 +1,35 @@
-import React from "react";
-import proyectos from "../json/proyectos.json";
+import {useEffect, useState} from "react";
+import _proyectos from "../json/proyectos.json";
 import { useNavigate } from "react-router-dom";
+
+
+import net from "../assets/svg/net.svg";
+import reactjs from "../assets/svg/reactjs.svg";
+
+import html from '../assets/svg/html.svg'
+import css from '../assets//svg/css.svg'
+import javascript from '../assets/svg/javascript.svg'
+import typscript from '../assets/svg/typescript.svg'
+import tailwind from '../assets/tailwind-css.svg'
+
+
+
+import node from '../assets/nodejs.png'
+import sql from '../assets/sql2.png'
+//import sql2 from '../assets/sql2.png'
+
+
 
 const Projects = () => {
   const navigate = useNavigate();
-
   const goToHome = () => {
     // Redirigir a la página de inicio
     navigate("/");
   };
+  const [proyectos, setProyectos] = useState(_proyectos)
 
   return (
     <div className="pt-14">
-      <img alt="" />
       <button
         className="fixed bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         onClick={goToHome}
@@ -36,9 +53,21 @@ const Projects = () => {
               {proyecto.tecnologias.map((tecnologia, index) => (
                 <li
                   key={index}
-                  className="bg-blue-500 px-2 h-auto text-white rounded-md"
+                  className="bg-blue-100 px-2 h-auto text-black rounded-md"
                 >
-                  {tecnologia}
+                   <p>{tecnologia} 
+                    {tecnologia === "ReactJS" && <img src={reactjs} alt="reactjs" className="w-6 h-6 inline-block " />}
+                    {tecnologia === "Html" && <img src={html} alt="html" className="w-6 h-6 inline-block" />}
+                    {tecnologia === "Css" && <img src={css} alt="css" className="w-6 h-6 inline-block" />}
+                    {tecnologia === "Javascript" && <img src={javascript} alt="javascript" className="w-6 h-6 inline-block" />}
+                    {tecnologia === "TypeScript" && <img src={typscript} alt="typescript" className="w-6 h-6 inline-block" />}
+                    {tecnologia === "tailwind" && <img src={tailwind} alt="tailwind" className="w-6 h-6 inline-block" />}
+                    {tecnologia === "Nodejs" && <img src={node} alt="nodejs" className="w-6 h-6 inline-block" />}
+                    {(tecnologia === "mongodb" || tecnologia === "mysql" || tecnologia === "postgresql" || tecnologia === "sql server") && <img src={sql} alt="sql" className="w-6 h-6 inline-block" />}
+                    {tecnologia === ".NetCore" && <img src={net} alt=".net" className="w-6 h-6 inline-block" />}
+
+
+                   </p>
                 </li>
               ))}
             </ul>

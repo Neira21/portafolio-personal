@@ -12,7 +12,7 @@ const About = ({aboutRef}) => {
       {/* h1 en negrita con tailwind */}
       <div className='md:flex md:justify-evenly'>
         <div className='w-full px-5 md:flex md:justify-center md:flex-col' >
-          <h1 className="font-extrabold text-white text-3xl text-center" >Alvaro Neira Riveros</h1>
+          <h1 className="font-extrabold text-white text-4xl md:text-7xl  text-center" >Alvaro Neira Riveros</h1>
           <p className='text-[18px] text-white text-center mt-5 '>
             Hola, soy Alvaro y estudio para ser un desarrollador web fullstack.
             <span className='block mt-3 font-bold text-blue-300 text-center '>

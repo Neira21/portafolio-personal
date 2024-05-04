@@ -2,7 +2,6 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 
-
 const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef, contactRef}) => {
   const [menu, setMenu] = useState(false);
 
@@ -23,7 +22,6 @@ const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef, contactRef}
       block: distance >= 0 ? 'start' : 'end' // Mueve el ref al principio o al final de la vista
     });
   };
-
  
   return (
     <div className="w-full fixed z-50">
@@ -49,7 +47,9 @@ const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef, contactRef}
             <li className="text-center cursor-pointer p-3">
               <a href="#" onClick={()=>scrollToRef(contactRef)}>Contáctame</a>
             </li>
-            <li className="text-center cursor-pointer p-3">Descargar CV</li>
+            <li className="text-center cursor-pointer p-3">
+              <a href="https://drive.google.com/file/d/1YZNFNCvYM0O5oS1TSkV1w3YEvlMJPm7v/export?format=pdf" download>Descargar archivo PDF</a>
+            </li>
           </ul>
         </div>
         <div className="px-2 md:hidden ">
@@ -88,7 +88,9 @@ const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef, contactRef}
                 onClick={()=>scrollToRef(contactRef)}
                 >Contáctame</a>
               </li>
-              <li className="cursor-pointer p-3">CV</li>
+              <li className="cursor-pointer p-3">
+              <a href="https://drive.google.com/file/d/1YZNFNCvYM0O5oS1TSkV1w3YEvlMJPm7v/export?format=pdf" download>Descargar archivo PDF</a>
+              </li>
             </ul>
           </div>
         )}
