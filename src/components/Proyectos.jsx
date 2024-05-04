@@ -11,7 +11,7 @@ const Proyectos = ({ proyectosRef }) => {
   const navigate = useNavigate();
   const goToProjects = () => {
     // Redirigir a la página de proyectos
-    navigate("/portafolio-personal/proyectos");
+    navigate("/proyectos");
   };
   
   const colocandoImagenes = () => {
