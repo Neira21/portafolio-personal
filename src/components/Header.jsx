@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
+import DownloadButton from "./DownloadButton";
 
-const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef, contactRef}) => {
+const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef}) => {
   const [menu, setMenu] = useState(false);
 
   const handleClick = () => {
@@ -45,10 +46,7 @@ const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef, contactRef}
               <a href="#" onClick={()=>scrollToRef(certificatesRef)}>Certificados</a>
             </li>
             <li className="text-center cursor-pointer p-3">
-              <a href="#" onClick={()=>scrollToRef(contactRef)}>Contáctame</a>
-            </li>
-            <li className="text-center cursor-pointer p-3">
-              <a href="https://drive.google.com/file/d/1YZNFNCvYM0O5oS1TSkV1w3YEvlMJPm7v/export?format=pdf" download>Descargar archivo PDF</a>
+              <DownloadButton />
             </li>
           </ul>
         </div>
@@ -84,12 +82,7 @@ const Header = ({aboutRef, proyectosRef, skillsRef, certificatesRef, contactRef}
                 >Certificados</a>
               </li>
               <li className="cursor-pointer p-3">
-                <a href="#" 
-                onClick={()=>scrollToRef(contactRef)}
-                >Contáctame</a>
-              </li>
-              <li className="cursor-pointer p-3">
-              <a href="https://drive.google.com/file/d/1YZNFNCvYM0O5oS1TSkV1w3YEvlMJPm7v/export?format=pdf" download>Descargar archivo PDF</a>
+                <DownloadButton />
               </li>
             </ul>
           </div>

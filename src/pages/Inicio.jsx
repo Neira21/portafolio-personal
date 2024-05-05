@@ -17,11 +17,10 @@ function Inicio() {
   const proyectosRef = useRef(null);
   const skillsRef = useRef(null);
   const certificatesRef = useRef(null);
-  const contactRef = useRef(null);
 
   return (
     <div>
-      <Header aboutRef={aboutRef} skillsRef={skillsRef} proyectosRef={proyectosRef} certificatesRef={certificatesRef} contactRef={contactRef} />
+      <Header aboutRef={aboutRef} skillsRef={skillsRef} proyectosRef={proyectosRef} certificatesRef={certificatesRef}/>
       <About aboutRef={aboutRef}/>
       <hr />
       <Skills skillsRef={skillsRef} />
